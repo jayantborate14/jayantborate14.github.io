@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KiraAgromart.pvt.ltd</title>
+    <script>
+        function charges(){
+            window.open("charges.html");
+        }
+        function inserted(){
+            window.open("DocumentD.html");
+        }
+    </script>
+
+
+    <style>
+
+        
+ body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+    }
+   
+    #navbar1{
+   position:relative;
+   height:60px;
+   width:100%;
+   background-color:yellow;s
+   }
+   
+   #callimg{
+   position:relative;
+   top:16px;
+   left:218px;
+   height:27px;
+   width:25px;
+   }
+   
+   #contact{
+   position:absolute;
+   top:18px;
+   left:250px;
+   color: black;
+   }
+   
+   #contactadress{
+   position:absolute;
+   top:18px;
+   left:350px;
+   color: black;
+   }
+   
+   #mail{
+   position:absolute;
+   top:15px;
+   height:27px;
+   width:25px;
+   left:1212px;
+   }
+   
+   #email{
+   position:absolute;
+   top:18px;
+   left:1245px;
+   color: black;
+   }  
+   
+   #mainnavbar{
+   position: relative;
+   z-index:3;
+   position:fixed;
+   height:90px;
+   width:100%;
+   background-color:#231d1d;
+   }
+   
+   /* #logopink{
+   position:absolute;
+   height:80px;
+   width:80px;
+   top:4px;
+   left:100px;
+   } */
+   
+   .c1{
+   text-decoration:none;
+   color:white;
+   font-size:20px;
+   }
+   
+   .classli{
+   list-style-type:none;
+   display:inline;
+   margin:15px 20px 20px 15px;
+   padding:4px 4px 45px 4px;
+   
+   }
+   
+   #navbarul{
+   position:absolute;
+   top:15px;
+   left:394px;
+   }
+   
+   #div60{
+   position:absolute;
+   top:56px;
+   left:-11px;
+   display:none;
+   }
+   
+   .classa{
+   text-decoration:none;
+   color:white;
+   }
+   
+   .classx{
+   list-style-type:none;
+   padding:8px;
+   border:1px solid #191717;
+   background-color:black;
+   }
+   
+   #dropdownhover:hover #div60{
+   display:inline-block;
+   }
+   
+   #div61{
+   position:absolute;
+   top:56px;
+   left:339px;
+   display:none;
+   }
+   
+   .classa2{
+   text-decoration:none;
+   color:white;
+   }
+   
+   .classli2{
+   list-style-type:none;
+   padding:8px;
+   border:1px solid #191717;
+   background-color:black;
+   }
+   
+   #dropdownhover1:hover #div61{
+   display:inline-block;
+   }
+   
+   #button1{
+   position:relative;
+   margin:0px 0px 0px 0px;
+   padding:12px 12px 12px 12px;
+   background-color:transparent;
+   border:1px solid yellow;
+   }
+   
+   #color1{
+   color:yellow;
+   }
+   
+   #button2{
+   position:relative;
+   left:5px;
+   margin:0px 0px 0px 0px;
+   padding:12px 4px 12px 1px;
+   background-color:yellow;
+   border:1px solid black;
+   }
+   
+   #color2{
+   color:black;
+   }
+
+   #first_page{
+       position: relative;
+   
+       height: 750px;
+       width: 100%;
+       background-color: yellow;
+   }
+   #img_t{
+       position: absolute;
+       top: 89px;
+       height: 668px;
+       width: 100%;
+
+   }
+
+   #we_make{
+       position: absolute;
+       top: 200px;
+       height: 200px;
+       width: 700px;
+       left: 100px;
+     
+   }
+#wheelo{
+    font-size: 15px;
+
+}
+#make_your{
+    font-size: 50px;
+}
+
+#OUR_SERVICES{
+    position: absolute;
+    top: 438PX;
+    height: 60px;
+    left: 200px;
+    width: auto;
+    font-size: 21px;
+    border-radius: 10px;
+    background-color: yellow;
+
+}
+#OUR_SERVICES  :hover {
+    background-color: pink;
+}
+
+#second_page{
+    position: relative;
+    height: 670px;
+    width: 100%;
+    background-color: #f5f5f5;
+   
+}
+#blog{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 560px;
+    width: 600px;
+   
+}
+
+#our_adv{
+    position: absolute;
+    left: 625px;
+    font-size: 38px;
+
+}
+.full{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 360px;
+    padding: 30px;
+   
+}
+#Service{
+    position: absolute;
+    top: 96px;
+    left: 270px;
+    font-size: 24px;
+}
+
+#Full_Truck{
+    position: absolute;
+    top: 135px;
+    left: 270px;
+}
+
+#Service1{
+    position: absolute;
+    top: 284px;
+    left: 270px;
+    font-size: 24px;
+}
+
+#Full_Truck1{
+    position: absolute;
+    top: 319px;
+    left: 270px;
+}
+
+#Service2{
+    position: absolute;
+    top: 441px;
+    left: 270px;
+    font-size: 24px;
+}
+
+#Full_Truck2{
+    position: absolute;
+    top: 496px;
+    left: 270px;
+}
+
+
+
+
+#blog5{
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    height: 560px;
+    width: 600px;
+  
+}
+
+.full7{
+    position: relative;
+    left: 440px;
+    height: 100px;
+    width: 100px;
+    border-radius: 360px;
+    padding: 30px;
+   
+}
+#Service8{
+    position: absolute;
+    top: 96px;
+    left: 970px;
+    font-size: 24px;
+}
+
+#Full_Truck9{
+    position: absolute;
+    top: 135px;
+    left: 970px;
+}
+
+#Service10{
+    position: absolute;
+    top: 284px;
+    left: 970px;
+    font-size: 24px;
+}
+
+#Full_Truck11{
+    position: absolute;
+    top: 319px;
+    left: 970px;
+}
+
+#Service12{
+    position: absolute;
+    top: 441px;
+    left: 970px;
+    font-size: 24px;
+}
+
+#Full_Truck13{
+    position: absolute;
+    top: 496px;
+    left: 970px;
+}
+
+#third_page{
+    position: relative;
+    height: 450px;
+    width: 100%;
+    
+   
+}
+#our_adv1{
+    position: absolute;
+    left: 625px;
+    font-size: 38px;
+
+}
+
+
+.full17{
+    position: relative;
+    top: 180px;
+    left:132px;
+    height: 100px;
+    width: 100px;
+   // border-radius: 360px;
+    padding: 2px 155px 2px 155px;
+   
+}
+
+#last_one{
+    position: absolute;
+    top: 281px;
+    left: 146px;
+    height: 170px;
+    width: auto;
+}
+
+#book{
+    position: absolute;
+    left: 95px;
+}
+
+
+#last_one1{
+    position: absolute;
+    top: 281px;
+    left: 620px;
+    height: 170px;
+    width: auto;
+}
+
+#book1{
+    position: absolute;
+    left: 41px;
+}
+
+
+#last_one2{
+    position: absolute;
+    top: 281px;
+    left: 996px;
+    height: 170px;
+    width: auto;
+}
+
+#book2{
+    position: absolute;
+    left: -3px;
+}
+
+    </style>
+</head>
+<body>
+    
+
+
+    <div id="mainnavbar">
+
+        <!-- <img src="logo-pink.png" id="logopink"></img> -->
+           
+           <div id="mainnavbar-mainu">
+           
+              <ul id="navbarul">
+              
+                 <li class="classli" id="dropdownhover"><a href="#" class="c1">Control Panel</a>
+                 
+                    <div id="div60">
+                       <ul id="u5">
+                             <li class="classx"><a href="#" class="classa">User</a></li>
+                             <li class="classx"><a href="#" class="classa">Admin</a></li>
+                             <!-- <li class="classx"><a href="#" class="classa">-----</a></li>
+                             <li class="classx"><a href="#" class="classa">------</a></li>
+                             <li class="classx"><a href="#" class="classa">-------</a></li>
+                             <li class="classx"><a href="#" class="classa">--------</a></li>
+                             <li class="classx"><a href="#" class="classa">---------</a></li>
+                             <li class="classx"><a href="#" class="classa">----------</a></li> -->
+                       </ul>
+         
+                   </div>
+                 
+                 </li>
+                 
+                 
+                 
+                 <li class="classli"><a href="#" class="c1">Home</a></li>
+                 <li class="classli"><a href="#"class="c1">Gallery</a></li>
+                 <li class="classli" id="dropdownhover1"><a href="#" class="c1">Services</a>
+                   
+                      <div id="div61">
+                           <ul id="u6">
+                                 <li class="classli2"><a href="#" class="classa2">Transfer</a></li>
+                                 <li class="classli2"><a href="#" class="classa2">Charges</a></li>
+                                 <li class="classli2"><a href="#" class="classa2"></a></li>
+                                 <!-- <li class="classli2"><a href="#" class="classa2">********</a></li>
+                                 <li class="classli2"><a href="#" class="classa2">*******</a></li>
+                                  -->
+                           </ul>
+         
+                       </div>	   
+                
+                 </li>
+                 <li class="classli"><a href="#" class="c1">About us</a></li>
+                 <li class="classli"><a href="#" class="c1">Blogs</a></li>
+                 <li class="classli"><a href="#" class="c1">Contact</a></li>
+                 <!-- <button type="button" onclick="charges()"><li class="classli" id="button1"><a href="#" class="c1" id="color1">Charge</a></li></button>
+                 <button type="button" onclick="inserted()"><li class="classli" id="button2"><a href="#" class="c1" id="color2">service</a></li></button>
+      -->
+              </ul>
+           
+           </div>
+           
+    </div>  
+    
+ <div id="first_page">
+      
+    <img src="bg2.jpg" id="img_t">
+
+    <div id="we_make">
+        <h3 id="wheelo">WELCOME TO KIRA AGROTRADERS PVT.LTD</h3>
+        <h1 id="make_your">Adding Value to your Life    </h1>
+    </div>
+<!-- button1 -->
+    <!-- <button type="button" id="OUR_SERVICES" onclick="form()"> OUR SERVICES</button> -->
+ </div>  
+
+ <div id="second_page">
+     <h1 id="our_adv">Our Advantages</h1>
+
+    <div id="blog">
+        <img src="Untitled.png" alt="" class="full"><br>
+        <img src="Untitled1.png" alt="" class="full"><br>
+        <img src="Untitled2.png" alt="" class="full"><br>
+
+
+    </div>
+    <h1 id="Service">Full Load Services</h1>
+    <h3 id="Full_Truck">We provide Full transport<br>
+        services with varied type of<br>
+        trucks available with the click of<br>
+        a button.</h3>
+
+        <h1 id="Service1">Transparent Pricing</h1>
+        <h3 id="Full_Truck1">With our low margin, we<br>
+            instantaneously give you<br>
+            Estimate rates online Pan
+            <br>India.</h3>
+
+            <h1 id="Service2">Quick & Easy Portal</h1>
+            <h3 id="Full_Truck2">purchasing fertilizers&pesticides is now just a click<br>
+                away, through our hassle free<br>
+                online booking system.</h3>
+
+
+
+                <div id="blog5">
+                    <img src="Untitled3.png" alt="" class="full7"><br>
+                    <img src="Untitled4.png" alt="" class="full7"><br>
+                    <img src="Untitled5.png" alt="" class="full7"><br>
+            
+            
+                </div>
+                <h1 id="Service8">Advance Booking</h1>
+                <h3 id="Full_Truck9">Our fertilizers availability is<br>
+                    guaranteed on<br>
+                    daily/weekly/monthly On<br>
+                    Demand basis.</h3>
+            
+                    <h1 id="Service10">Live Tracking</h1>
+                    <h3 id="Full_Truck11">Get real time updates of your<br>
+                        goods with our simplified<br>
+                        technology.</h3>
+            
+                        <h1 id="Service12">24/7 Service</h1>
+                        <h3 id="Full_Truck13">KiraAgromart is dedicated to<br>
+                            provide exceptional customer<br>
+                            support over the Phone or<br>
+                            Whatsapp.</h3>
+            
+
+ </div>
+
+<div id="third_page">
+    <h1 id="our_adv1">Our Advantages</h1>
+
+    
+    <div id="">
+        <img src="Untitled6.png" alt="" class="full17">
+        <img src="Untitled7.png" alt="" class="full17">
+        <img src="Untitled8.png" alt="" class="full17">
+
+    </div>
+   <div id="last_one">
+       <h2><b id="book">Book Your Goods</b><br>
+       Through Website/App/Call Center</h2>
+   </div>
+
+   <div id="last_one1">
+    <h2><b id="book1">Our Agents Find</b><br>
+      Nearest Retailer For You</h2>
+</div>
+
+<div id="last_one2">
+    <h2><b id="book2">Get updates and notifications</b><br>
+    via SMS & Email or Whatsapp</h2>
+</div>
+</div>
+
+</body>
+</html>
